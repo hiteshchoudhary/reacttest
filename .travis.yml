@@ -9,6 +9,7 @@ script:
   - docker run -e CI=true reacttest npm run test
 
 deploy:
+  edge: true
   provider: elasticbeanstalk
   region: "ap-south-1"
   app: "reacttest"
