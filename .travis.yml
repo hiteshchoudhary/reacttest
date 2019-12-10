@@ -11,10 +11,11 @@ script:
 deploy:
   edge: true
   provider: elasticbeanstalk
-  region: ap-south-1
+  region: "ap-south-1"
   app: "react-travis"
   env: "ReactTravis-env"
   bucket_name: "elasticbeanstalk-ap-south-1-345800986069"
+  bucket_path: "react-travis"
   on:
     branch: master
 
