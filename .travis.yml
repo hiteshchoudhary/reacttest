@@ -14,7 +14,7 @@ deploy:
   region: "ap-south-1"
   app: "reacttest"
   env: "Reacttest-env"
-  bucket_name: "elasticbeanstalk-ap-south-1-345800986069"
+  bucket_name: "arn:aws:s3:::elasticbeanstalk-ap-south-1-345800986069"
   bucket_path: "reacttest"
   on:
     branch: master
